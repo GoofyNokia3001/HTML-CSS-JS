@@ -21,7 +21,7 @@ p{
     border-radius: 5rem;
     cursor: pointer;
     /*how to do positioning: Stack overflow;*/
-    position: absolute;
+    position: fixed;
     bottom: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -91,3 +91,18 @@ p{
     background-color: rgba(20, 255, 0, 0.3);
 }
 
+
+
+
+@media(max-width: 1920px){
+    #undo-btn {
+        bottom: 75%;
+        
+    }
+    #xo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2rem;
+    }
+}
