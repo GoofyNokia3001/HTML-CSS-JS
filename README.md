@@ -10,7 +10,7 @@
 
 ### Description
 
-This is projects that i created myself only using picture as example for html page. Howers, transitions and other functions were used.
+This is projects that i created myself only using picture as example for html page. Transitions buttons and localStorage was used in this project with JS.
 
 
 ### Gallery of project
