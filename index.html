@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <p id="playerXScore">Spēlētāja X punkti: 0</p>
+    <p id="playerOScore">Spēlētāja O punkti: 0</p>
+    <h1>XO</h1>
+    <p>Spēlētāja <span class="display">X</span> gājiens</p>
+    <button id="undo-btn">Atsaukt pēdējo gājienu</button>
+    <div class="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+
+    <div class="result" id="result-box">
+        <div class="result-info"></div>
+        <button id="restart-btn">Spēlēt vēlreiz</button>
+        <button id="restart-score">Rezultātu atiestatīšana</button>
+    </div>
+</body>
+</html>

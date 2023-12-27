@@ -1,0 +1,93 @@
+body{
+    background-color: #1a252c;
+}
+h1{
+    color: #fff;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 4rem;
+}
+p{
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+#undo-btn {
+    font-size: 1.3rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 0.2rem 0.7rem;
+    border-radius: 5rem;
+    cursor: pointer;
+    /*how to do positioning: Stack overflow;*/
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.board{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3, auto);
+}
+.cell{
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 3rem;
+}
+.circle:before{
+    content: 'O';
+}
+.circle{
+    color: #498AFB;
+}
+.x:before{
+    content: 'X';
+}
+.x{
+    color: #09C372;
+}
+.result{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(44, 26, 44, 95%);
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 3rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+.result.show{ /*If both classes are active, then display flex. Otherwise NONE*/
+    display: flex;
+}
+.result button{
+    font-size: 2rem;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 0.4rem 1rem;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+.result button:hover{
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+
+.winning-cell {
+    background-color: rgba(20, 255, 0, 0.3);
+}
+
