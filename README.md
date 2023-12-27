@@ -16,5 +16,4 @@ This is projects that i created myself only using picture as example for html pa
 <img src="gallery/gallery1.png">
 <img src="gallery/gallery2.png">
 <img src="gallery/gallery3.png">
-<img src="gallery/gallery4.png">
 
