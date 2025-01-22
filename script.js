@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
     start();
 
     function start() {
+        document.body.style.backgroundColor = "#1c2c1a";
         gameEnded = false;
         playerO = false;
         moveHistory = [];
@@ -78,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
             lastMove.cell.removeEventListener('click', clickCell);
             lastMove.cell.addEventListener('click', clickCell, { once: true });
             gameEnded = false;
-            change_player(false); 
+            change_player(true); 
         }
     }
     
